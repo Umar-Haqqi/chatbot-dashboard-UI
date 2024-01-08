@@ -6,3 +6,7 @@
     box-sizing: border-box;
     font-family: 'Cabin', sans-serif;
 }
+
+html {
+    font-size: 62.5%;
+}

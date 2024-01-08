@@ -6,8 +6,8 @@ const SideBarContainer = styled(Box)({
     justifyContent: 'space-between',
     alignItems: 'center',
     height: '100%',
-    padding: '20px 5px',
-    backgroundColor: '#141414',
+    padding: '2.0rem 0.5rem',
+    backgroundColor: '#0f0f0f',
 })
 
 
@@ -16,7 +16,7 @@ const TopBox = styled(Box)({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    gap: '100px',
+    gap: '10.0rem',
 })
 
 const BottomBox = styled(Box)({
@@ -24,7 +24,7 @@ const BottomBox = styled(Box)({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    gap: '20px',
+    gap: '2.0rem',
 })
 
 const MenuItems = styled(Box)({
@@ -32,7 +32,7 @@ const MenuItems = styled(Box)({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    gap: '20px',
+    gap: '2.0rem',
 })
 
 export { SideBarContainer, TopBox, MenuItems, BottomBox }
